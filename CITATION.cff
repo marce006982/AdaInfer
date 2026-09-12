@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this research compendium, please cite the accompanying manuscript."
+title: "AdaInfer: Feedback-Based Runtime Configuration Control for Edge LLM Inference"
+type: software
+authors:
+  - family-names: Gong
+    given-names: Yu
+  - family-names: Wang
+    given-names: Ling
+version: 1.0.0
+date-released: 2026-09-12
+abstract: "Code, measurements, request-level records, and analysis scripts supporting AdaInfer."
+keywords:
+  - edge inference
+  - large language models
+  - runtime configuration
+  - tabular Q-learning
+  - reproducibility

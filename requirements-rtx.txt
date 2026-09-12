@@ -1,0 +1,6 @@
+# Optional dependencies for the local RTX validation scripts.
+-r requirements.txt
+--extra-index-url https://download.pytorch.org/whl/cu130
+torch==2.11.0+cu130
+transformers==5.1.0
+datasets==4.8.4
