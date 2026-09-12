@@ -1,0 +1,9 @@
+﻿strategy,time_to_recover_mean,time_to_recover_std
+adaptive_linucb,76.6,29.59804798368373
+dynamic_budget_q8,,
+greedy_sla_ewma,49.9,16.278479317457418
+greedy_sla_stale,40.0,0.0
+linucb_online,40.0,0.0
+oracle_adaptive,40.0,0.0
+q_frozen,40.0,0.0
+q_online,101.8,51.566138760495406
