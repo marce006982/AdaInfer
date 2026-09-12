@@ -1,0 +1,13 @@
+﻿device,framework,model_short,config,token_budget,latency_ms_mean,latency_ms_std,tokens_s_mean,tokens_s_std,ram_used_mb_mean,gpu_mem_used_mb_mean,torch_peak_mb_mean,power_w_mean,board_power_w_mean,gpu_temp_c_mean,gpu_temp_c_mean_local,n
+RTX_5060_Ti_8GB,Transformers,Qwen3-0.6B,float16,16.0,1074.7682,279.9326,15.498,2.5492,,5099.8988,1447.2558,36.4774,,,,24
+RTX_5060_Ti_8GB,Transformers,Qwen3-0.6B,float16,32.0,1971.1133,149.3182,16.3163,1.1272,,4954.502,1449.5068,37.3986,,,,24
+RTX_5060_Ti_8GB,Transformers,Qwen3-0.6B,float16,64.0,4330.0614,1175.7589,15.642,3.3612,,4955.9579,1454.0107,37.6105,,,,24
+RTX_5060_Ti_8GB,Transformers,Qwen3-0.6B,float16,128.0,8406.3076,1296.9858,15.556,2.2544,,4989.7597,1464.079,37.8249,,,,24
+yahboom_nano,Ollama,qwen2.5-0.5b-q4,Q4_K_M,16.0,4877.0078,2998.8,11.1369,0.8401,1652.2381,,,4.4502,4.4502,30.8772,,8
+yahboom_nano,Ollama,qwen2.5-0.5b-q4,Q4_K_M,32.0,5241.3295,400.8051,10.8447,0.4147,1700.0236,,,4.938,4.938,32.6424,,8
+yahboom_nano,Ollama,qwen2.5-0.5b-q4,Q4_K_M,64.0,8608.6254,528.3335,10.6621,0.4956,1714.3306,,,5.2933,5.2933,35.3658,,8
+yahboom_nano,Ollama,qwen2.5-0.5b-q4,Q4_K_M,128.0,15037.8091,661.6538,10.5577,0.298,1720.3349,,,5.5228,5.5228,38.442,,8
+yahboom_nano,Ollama,qwen3-0.6b-q8,Q8_0,16.0,4274.0154,852.6709,8.7432,0.3476,2672.4759,,,4.633,4.633,39.8164,,8
+yahboom_nano,Ollama,qwen3-0.6b-q8,Q8_0,32.0,6440.055,113.6285,8.163,0.2778,2718.867,,,4.9565,4.9565,37.6366,,8
+yahboom_nano,Ollama,qwen3-0.6b-q8,Q8_0,64.0,10478.0172,269.6488,7.6978,0.3641,2725.9155,,,5.2595,5.2595,38.2411,,8
+yahboom_nano,Ollama,qwen3-0.6b-q8,Q8_0,128.0,19656.9087,243.3241,7.4813,0.1827,2726.0628,,,5.3424,5.3424,39.2308,,8

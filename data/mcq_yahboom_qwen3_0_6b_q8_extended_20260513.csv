@@ -1,0 +1,25 @@
+device,backend,model,question_id,gold,pred,correct,latency_ms,raw_output
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q01,B,B,1,10954.239464132115, B\n\nAnswer:\nAnswer: B
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q02,B,B,1,3899.605661164969, B\nAnswer:\nB\n\nAnswer
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q03,B,B,1,3541.278385091573, B\n\nAnswer:\nB\n\nExplanation
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q04,A,D,0,3373.4010849148035, D\nAnswer:\nD\n\nAnswer
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q05,A,A,1,3535.238533047959,:\n A\nAnswer:\nA\nAnswer
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q06,A,A,1,3489.1025910619646, A\nAnswer: A\nAnswer
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q07,A,A,1,3483.341109007597, A\nAnswer:\nA\nAnswer
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q08,B,B,1,3428.591274889186, B\n\nAnswer:\nB\n\nExplanation
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q09,B,B,1,3918.99747797288,: B\n\nAnswer:\nAnswer: B
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q10,A,A,1,3779.04010983184, A\nAnswer:\nA\nAnswer
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q11,A,A,1,3801.7076370306313, A\n\nAnswer: A\nAnswer
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q12,B,B,1,3770.1632368844002, B\nAnswer:\nB\n\nAnswer
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q13,A,A,1,3614.221332129091, A\n\nAnswer: A\nAnswer
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q14,A,A,1,3735.794640844688, A\nAnswer:\nA\nAnswer
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q15,A,A,1,3713.7405509129167, A\nAnswer: A\nAnswer
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q16,A,A,1,3006.3345639500767, A\n\nAnswer: A\n\nAnswer
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q17,A,A,1,3065.9034170676023,: A\n\nAnswer:\nA\n\nAnswer
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q18,A,A,1,4145.591423846781, A\nAnswer:\nA\nAnswer
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q19,A,A,1,3924.5287638623267, A\n\nAnswer: A\nAnswer
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q20,A,A,1,4021.2099528871477, A\n\nAnswer:\nA\nAnswer
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q21,A,A,1,3811.953419819474, A\nAnswer:\nA\nAnswer
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q22,A,A,1,4001.573006855324, A\n\nAnswer: A\nAnswer
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q23,A,A,1,3571.9375440385193,: A\nAnswer:\nA\nAnswer
+yahboom_nano,ollama,qwen3-0.6b-q8:latest,q24,A,A,1,3693.9511771779507, A\nAnswer:\nA\nAnswer

@@ -1,0 +1,2 @@
+platform,iterations,window,hysteresis_h,delta,mean_us,median_us,p95_us,p99_us,max_us,switches,switch_rate,last_selected
+RTX_5060_Ti_host,100000,32,3,0.02,12.793674098510742,11.5,19.20001220703125,40.60003662109375,1042.5,1,1e-05,Qwen3-0.6B Q8

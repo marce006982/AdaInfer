@@ -1,0 +1,25 @@
+device,backend,model,question_id,gold,pred,correct,latency_ms,raw_output
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q01,B,B,1,8355.813400819898, B. Tokens per second\n\nThe correct
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q02,B,B,1,3770.5956138670444, B\n\nThe correct answer is B.
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q03,B,B,1,3827.5703608524054, B\n\nThe correct answer is B.
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q04,A,B,0,3498.036539182067, B\n\nThe correct answer is B.
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q05,A,B,0,4023.2265880331397, B. nvidia-smi\n\nThe
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q06,A,A,1,3358.5061109624803, A\n\nThe correct answer is A.
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q07,A,A,1,3981.861863983795, A. A configuration chosen once and reused
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q08,B,B,1,3786.201963899657, B\n\nThe main goal of a hardware
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q09,B,B,1,4060.347876045853, B\n\nThe correct answer is B.
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q10,A,A,1,3652.6329359039664, A\n\nThe correct answer is A.
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q11,A,A,1,4221.186782000586, A\n\nThe multiple-choice question returns only
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q12,B,B,1,3890.3501639142632, B\n\nThe correct answer is B.
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q13,A,A,1,3688.895476050675, A\n\nThe correct answer is A.
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q14,A,A,1,3620.9612239617854, A\n\nThe correct answer is A.
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q15,A,A,1,4249.905071919784, A\n\nThe correct answer is A.
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q16,A,A,1,3224.2861539125443, A\n\nThe correct answer is A.
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q17,A,A,1,3125.8020768873394, A\n\nThe correct answer is A.
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q18,A,A,1,3779.284921940416, A\n\nThe multiple-choice question returns only
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q19,A,A,1,4263.35388678126, A\n\nThe main drawback of always choosing
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q20,A,A,1,3895.3676889650524, A\n\nThe correct answer is A.
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q21,A,A,1,3757.4964680243284, A\n\nThe correct answer is A.
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q22,A,A,1,4365.637508220971, A\n\nThe correct answer is A.
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q23,A,A,1,3934.15569094941, A\n\nThe correct answer is A.
+yahboom_nano,ollama,qwen2.5-0.5b-q4:latest,q24,A,A,1,3753.237308934331, A\n\nThe correct answer is A.

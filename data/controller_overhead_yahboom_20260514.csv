@@ -1,0 +1,2 @@
+﻿platform,iterations,window,hysteresis_h,delta,mean_us,median_us,p95_us,p99_us,max_us,switches,switch_rate,last_selected
+yahboom_nano,100000,32,3,0.02,74.32398224853516,69.273193359375,85.365966796875,101.512939453125,252.662841796875,1,1e-05,Qwen3-0.6B Q8

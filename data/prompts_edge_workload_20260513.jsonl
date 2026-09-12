@@ -1,0 +1,24 @@
+{"id":"edge_summary_01","prompt":"Summarize the current CPU, memory, and network load of an edge gateway in two concise sentences."}
+{"id":"edge_summary_02","prompt":"A factory camera detects a defective part. Explain what the edge device should do before sending an alert to the cloud."}
+{"id":"edge_summary_03","prompt":"Write a short status report for an IoT gateway that is processing vibration, temperature, and humidity signals."}
+{"id":"edge_summary_04","prompt":"Explain why a smart traffic intersection should prefer local inference when the network connection is unstable."}
+{"id":"edge_summary_05","prompt":"A wearable sensor reports abnormal heart rate and low battery. Generate a short response policy for the device."}
+{"id":"edge_summary_06","prompt":"Describe how an edge node can reduce bandwidth when monitoring many low-resolution security cameras."}
+{"id":"edge_summary_07","prompt":"List three signs that a lightweight language model is too slow for an embedded control loop."}
+{"id":"edge_summary_08","prompt":"Give a concise explanation of why token budget affects response latency in on-device language model inference."}
+{"id":"edge_summary_09","prompt":"An agricultural sensor node detects dry soil and high temperature. Draft a compact recommendation for irrigation control."}
+{"id":"edge_summary_10","prompt":"Explain how quantization can help deploy a small language model on a memory-limited edge device."}
+{"id":"edge_summary_11","prompt":"A warehouse robot receives a noisy text command. Describe how local inference can validate the command safely."}
+{"id":"edge_summary_12","prompt":"Write a brief comparison between cloud-only inference and edge-assisted inference for smart home automation."}
+{"id":"edge_summary_13","prompt":"A roadside sensor must classify events within one second. Explain which runtime metrics should be monitored."}
+{"id":"edge_summary_14","prompt":"Summarize how an edge controller should react when GPU memory usage rises close to the device limit."}
+{"id":"edge_summary_15","prompt":"Describe a lightweight policy for choosing between a faster quantized model and a slower higher-precision model."}
+{"id":"edge_summary_16","prompt":"A campus IoT gateway receives many short user queries during an emergency drill. Explain how it should preserve responsiveness."}
+{"id":"edge_summary_17","prompt":"Give two reasons why measuring first-token latency matters for interactive edge intelligence applications."}
+{"id":"edge_summary_18","prompt":"An embedded device is running hot while answering sensor-related questions. Suggest a concise runtime mitigation plan."}
+{"id":"edge_summary_19","prompt":"Explain how prompt length and output length jointly influence the scheduling of language model inference at the edge."}
+{"id":"edge_summary_20","prompt":"A smart meter gateway needs to explain abnormal power usage locally. Draft a short answer that is accurate but low latency."}
+{"id":"edge_summary_21","prompt":"Describe how a runtime controller can use recent latency observations to select the next inference configuration."}
+{"id":"edge_summary_22","prompt":"A drone has limited power and intermittent connectivity. Explain when it should run a local language model instead of waiting for cloud inference."}
+{"id":"edge_summary_23","prompt":"Write a compact diagnostic message for an edge AI service whose throughput has dropped after a model update."}
+{"id":"edge_summary_24","prompt":"Explain why the best inference configuration may differ between Jetson Nano, a desktop GPU, and a rented data-center GPU."}

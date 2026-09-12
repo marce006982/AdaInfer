@@ -1,0 +1,7 @@
+﻿device,framework,model_short,config,token_budget,latency_ms_mean,tokens_s_mean,ram_used_mb_mean,gpu_mem_used_mb_mean,torch_peak_mb_mean,power_w_mean,gpu_temp_c_mean,gpu_temp_c_mean_local
+RTX_5060_Ti_8GB,Transformers,Qwen3-0.6B,float16,32.0,1938.052,17.035,,5366.502,1448.709,36.277,,46.366
+RTX_5060_Ti_8GB,Transformers,Qwen3-0.6B,float16,64.0,3680.855,17.642,,5373.505,1453.213,38.001,,48.44
+yahboom_nano,Ollama,qwen3-0.6b-q8:latest,Q8_0,32.0,5997.068,8.288,2550.595,,,,34.74,
+yahboom_nano,Ollama,qwen3-0.6b-q8:latest,Q8_0,64.0,9310.034,7.878,2596.177,,,,37.886,
+yahboom_nano,Ollama,qwen:0.5b,Q4_K_M,32.0,3912.3,11.918,1654.894,,,,34.305,
+yahboom_nano,Ollama,qwen:0.5b,Q4_K_M,64.0,6461.416,11.53,1664.706,,,,34.385,
