@@ -248,11 +248,11 @@ def summarize(rows):
 
 def write_md(summary, returns, out_path):
     lines = [
-        "# AdaInfer tabular Q-learning controller",
+        "# AdaInfer-RL tabular Q-learning controller",
         "",
         "## Objective",
         "",
-        "This experiment instantiates AdaInfer as a hardware-aware adaptive controller. "
+        "This experiment instantiates AdaInfer-RL as a hardware-aware adaptive controller. "
         "Measured hardware profiles provide the environment model. The controller observes the quality threshold, request budget, network pressure, burst state, and resident model, then selects a model and generation budget. "
         "Training uses tabular Q-learning and closes the state-action-reward loop evaluated in the manuscript.",
         "",
@@ -261,7 +261,7 @@ def write_md(summary, returns, out_path):
         f"- Episodes: {len(returns)}",
         "- Steps per episode: 500",
         "- State: quality SLA bucket, requested budget, network pressure, burst flag, resident model",
-        "- Action: model configuration plus generation budget",
+        "- Action: model precision plus generation budget",
         "- Reward: joint SLA + budget retention - latency ratio penalty - switch penalty",
         f"- First episode return: {returns[0]:.2f}",
         f"- Last episode return: {returns[-1]:.2f}",
@@ -282,7 +282,8 @@ def write_md(summary, returns, out_path):
             "",
             "## Interpretation",
             "",
-            "This run checks the complete data-to-controller path on a short trace. Use the full commands in docs/REPRODUCE.md to reproduce the reported experiments.",
+            "This run provides a minimal closed-loop check: profiling supplies the environment model and offline traces support controller evaluation. "
+            "The current evidence supports tabular Q-learning within the stated action space; broader action spaces and cross-device transfer require separate experiments.",
         ]
     )
     Path(out_path).write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -1,4 +1,9 @@
-"""Regenerate the data-derived AdaInfer figures and table fragments."""
+"""Regenerate data-derived v24 figures and tables from archived observations.
+
+The motivation charts and ``figures/framework.*`` are intentionally excluded:
+they preserve user-supplied first-version artwork, and the editable architecture
+source is ``figures/AdaInfer_architecture_editable.pptx``.
+"""
 from pathlib import Path
 import pandas as pd
 import numpy as np
@@ -6,10 +11,9 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
-ROOT=Path(__file__).resolve().parents[1]
-DATA=ROOT/'data'
-FIG=ROOT/'figures'; TAB=ROOT/'results'
-FIG.mkdir(exist_ok=True); TAB.mkdir(exist_ok=True)
+ROOT=Path(__file__).resolve().parents[2]
+DATA=ROOT/'Data'/'Source'
+FIG=ROOT/'Figures'; TAB=ROOT/'LaTeX'/'tables'
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':9,'axes.titlesize':10,
  'axes.labelsize':9,'legend.fontsize':8,'pdf.fonttype':42,'axes.spines.top':False,
  'axes.spines.right':False,'savefig.bbox':'tight'})
